@@ -4,6 +4,7 @@ from Models.Curso import Curso
 from Models.Escola import Escola
 from Models.Escolaridade import Escolaridade
 from Models.Professor import Professor
+from Models.TipoEnsino import TipoEnsino
 
 print("Respostas das Perguntas do Exercicio!")
 
@@ -15,6 +16,8 @@ esc_superior = Escolaridade(escolaridade="Ensino Superior")
 esc_ens_medio = Escolaridade(escolaridade="Ensino Medio Completo")
 esc_pos_graduado = Escolaridade(escolaridade="Pós Graduado")
 esc_mestrado = Escolaridade(escolaridade="Mestrado")
+
+tipoEnsino_fundamental = TipoEnsino(tipoEnsino = "Ensino Fundamental")
 
 diretorCarlos = Professor(
     nome="Carlos",
@@ -71,8 +74,8 @@ print(f'c = {escolaUni.getDirecao().getEscolaridade().getEscolaridade()}')
 print(f'd = {alunoVitor.getNaturalidade().getEstado()}')
 print(f'e = {profAlexandre.getNaturalidade().getCidade()}')
 print(f'f = {alunoVitor.getCurso().getEscola().getCidade().getEstado()}')
-cursoEng.setTipoEnsino("Ensino fundamental")
-print(f'g = {profAlexandre.getContratacao().getTipoEnsino()}')
+cursoEng.setTipoEnsino(tipoEnsino_fundamental)
+print(f'g = {profAlexandre.getContratacao().getTipoEnsino().getTipoEnsino()}')
 print(f'h = {alunoVitor.getCurso().getCoordenacao().getNome()}')
 print(f'i = {profAlexandre.getContratacao().getEscola().getDirecao().getNome()}')
 print(f'j = {profAlexandre.getContratacao().getCoordenacao().getNome()}')
