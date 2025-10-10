@@ -1,7 +1,7 @@
 class Cidade:
-    def __init__(self, cidade):
+    def __init__(self, cidade, estado):
         self.__cidade = cidade
-        self.__estado = None
+        self.__estado = estado
 
     def getCidade(self):
         return self.__cidade

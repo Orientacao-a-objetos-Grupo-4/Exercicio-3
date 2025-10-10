@@ -1,11 +1,10 @@
 from Models.Pessoa import Pessoa
 
-
 class Professor(Pessoa):
-    def __init__(self, nome, idade, materia, contratacao):
-        super().__init__(nome, idade)
+    def __init__(self, nome, idade, escolaridade, naturalidade, materia):
+        super().__init__(nome, idade, escolaridade, naturalidade)
         self.__materia = materia
-        self.__contratacao = contratacao
+        self.__contratacao = None
 
     def getMateria(self):
         return self.__materia

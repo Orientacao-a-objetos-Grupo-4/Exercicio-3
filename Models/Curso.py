@@ -1,5 +1,5 @@
 class Curso:
-    def __init__(self, nome, escola, coordenacao):
+    def __init__(self, nome, coordenacao, escola):
         self.__nome = nome
         self.__escola = escola
         self.__coordenacao = coordenacao

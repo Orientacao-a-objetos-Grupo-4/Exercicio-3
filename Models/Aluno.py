@@ -2,10 +2,10 @@ from Models.Pessoa import Pessoa
 
 
 class Aluno(Pessoa):
-    def __init__(self, nome, idade, matricula, curso):
-        super().__init__(nome, idade)
+    def __init__(self, nome, idade, escolaridade, naturalidade, matricula):
+        super().__init__(nome, idade, escolaridade, naturalidade)
         self.__matricula = matricula
-        self.__curso = curso
+        self.__curso = None
 
     def getMatricula(self):
         return self.__matricula
