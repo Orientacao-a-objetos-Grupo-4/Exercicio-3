@@ -12,7 +12,7 @@
 O diagrama abaixo representa a hierarquia e os relacionamentos entre as classes:
 
 <br/>
-<img width="512" height="1280" alt="image" src="https://github.com/user-attachments/assets/a39c3b26-8c22-48a4-9210-982b0388c778" />
+<img width="491" height="463" alt="image" src="https://github.com/user-attachments/assets/bc71f88a-3f22-4f6c-83ea-c7b1466498ca" />
 
 
 ---
