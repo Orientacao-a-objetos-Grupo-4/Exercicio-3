@@ -1,4 +1,4 @@
-# 🧠 Exercício Relâmpago Surpresa Nº π  
+# 🧠 Exercício Relâmpago Surpresa Nº 3
 
 ---
 
