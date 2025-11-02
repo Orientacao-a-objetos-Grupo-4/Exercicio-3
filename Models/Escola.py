@@ -1,7 +1,7 @@
 class Escola:
-    def __init__(self, nome, direcao, cidade):
+    def __init__(self, nome, cidade):
         self.__nome = nome
-        self.__direcao = direcao
+        self.__direcao = None
         self.__cidade = cidade
 
     def getNome(self):
